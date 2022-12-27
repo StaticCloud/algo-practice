@@ -8,10 +8,11 @@ def productOfLargestTwo(arr):
     for num in arr:
         if (num > largestTwo[0]):
             largestTwo[0] = num;
-        elif (num > largestTwo[1]):
+
+    for num in arr:
+        if (num > largestTwo[1] and num != largestTwo[0]):
             largestTwo[1] = num;
 
-    print(largestTwo)
     return largestTwo[0] * largestTwo[1];
 
 print(productOfLargestTwo([12,13,5,6,89,9]))
