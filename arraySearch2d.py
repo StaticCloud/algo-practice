@@ -1,3 +1,4 @@
 def arraySearch2D(arr):
-    # flatten the array to avoid nested looping
-    # count every instance of "X"
+    # use list comprehension to get a 1D array
+    # append items to a new array if item equals "x"
+    # return the length
