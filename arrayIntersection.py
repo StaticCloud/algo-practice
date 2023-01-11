@@ -1,5 +1,4 @@
 def arrayIntersection(arr1, arr2):
-    # determine which array to iterate over depending on which one is bigger
-    # iterate over the smaller array
-    # use if ... in to determine if an item exists in both arrays
-    # push it to an array we will return
+    return list(set(arr1).intersection(set(arr2)))
+
+print(arrayIntersection([1, 2, 3, 4], [3, 4, 5, 6]))
