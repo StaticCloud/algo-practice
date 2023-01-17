@@ -1,4 +1,8 @@
 def permSubstring(str, sub):
-    # loop through each element in the string
-    # if the respective letter is in substring, continue the loop
-    # however, if it's not, immediatly return false
+    for letter in sub:
+        if letter not in str:
+            return False
+    
+    return True
+
+print(permSubstring("smapnuer", "super"))
