@@ -1,0 +1,1 @@
+def leftRotation(arr, positions):
